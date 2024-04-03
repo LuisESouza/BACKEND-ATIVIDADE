@@ -1,0 +1,19 @@
+{
+  "name": "back-end-atividade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "install": "^0.13.0",
+    "mongodb-memory-server": "^9.1.8",
+    "mongoose": "^8.2.4",
+    "npm": "^10.5.1"
+  }
+}
