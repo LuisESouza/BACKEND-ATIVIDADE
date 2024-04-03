@@ -19,7 +19,9 @@ const setup = async () =>{
         console.log(req.body)
         const{
             nome,
-            genero
+            cpf,
+            ra,
+            idade
         } = req.body
 
         const novaPessoa = new pessoa({nome: nome, cpf:cpf, ra:ra, idade:idade})
